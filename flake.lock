@@ -1,0 +1,60 @@
+{
+  "nodes": {
+    "flake-utils": {
+      "locked": {
+        "lastModified": 1678901627,
+        "narHash": "sha256-U02riOqrKKzwjsxc/400XnElV+UtPUQWpANPlyazjH0=",
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "rev": "93a2b84fc4b70d9e089d029deacc3583435c2ed6",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1679966490,
+        "narHash": "sha256-k0jV+y1jawE6w4ZvKgXDNg4+O9NNtcaWwzw8gufv0b4=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "5b7cd5c39befee629be284970415b6eb3b0ff000",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-22.11",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "onedriver-src": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1673063169,
+        "narHash": "sha256-98NS+NBEf10/kzOT5Vw2Wn+s4yKV1jLcuGjTZYMbcpg=",
+        "owner": "jstaf",
+        "repo": "onedriver",
+        "rev": "a6f3d803f893aaf91a7b69225cdc7415e52f1ae5",
+        "type": "github"
+      },
+      "original": {
+        "owner": "jstaf",
+        "repo": "onedriver",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "flake-utils": "flake-utils",
+        "nixpkgs": "nixpkgs",
+        "onedriver-src": "onedriver-src"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
